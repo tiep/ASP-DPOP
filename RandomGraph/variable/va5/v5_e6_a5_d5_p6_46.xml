@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<instance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="src/ch/epfl/lia/frodo/algorithms/XCSPschema.xsd">
+<presentation degree="1" pro="0.6" pro1="0.6" format="XCSP 2.1_FRODO" maxConstraint="2" maximize="true" name="v5_e6_a5_d5_p6_46"/>
+<agents nbAgents="5">
+<agent name="A0"/>
+<agent name="A1"/>
+<agent name="A2"/>
+<agent name="A3"/>
+<agent name="A4"/>
+</agents>
+<domains nbDomains="5">
+<domain name="dv0" nbValues="6">0..5</domain>
+<domain name="dv1" nbValues="6">0..5</domain>
+<domain name="dv2" nbValues="6">0..5</domain>
+<domain name="dv3" nbValues="6">0..5</domain>
+<domain name="dv4" nbValues="6">0..5</domain>
+</domains>
+<variables nbVariables="5">
+<variable agent="A0" domain="dv0" name="V0"/>
+<variable agent="A1" domain="dv1" name="V1"/>
+<variable agent="A2" domain="dv2" name="V2"/>
+<variable agent="A3" domain="dv3" name="V3"/>
+<variable agent="A4" domain="dv4" name="V4"/>
+</variables>
+<relations nbRelations="6">
+<relation arity="2" defaultCost="-infinity" name="u1" nbTuples="19" semantics="soft">165:0 1 |384:0 2 |200:0 3 |474:1 1 |419:1 2 |565:1 3 |613:1 4 |956:2 0 |653:2 1 |782:2 2 |426:2 4 |596:3 0 |272:3 2 |146:3 4 |937:4 0 |266:4 1 |552:4 2 |208:4 4 |48:5 1 </relation>
+<relation arity="2" defaultCost="-infinity" name="u2" nbTuples="17" semantics="soft">783:0 1 |445:0 3 |735:0 5 |568:1 0 |280:1 1 |706:1 2 |282:1 3 |696:1 4 |199:1 5 |705:2 2 |474:2 4 |136:3 0 |137:3 3 |271:4 0 |22:5 0 |486:5 1 |475:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u3" nbTuples="13" semantics="soft">661:0 2 |908:0 3 |227:1 1 |940:1 2 |527:1 3 |560:2 1 |685:2 2 |208:2 5 |363:3 0 |569:3 5 |766:4 2 |255:5 1 |425:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u4" nbTuples="13" semantics="soft">206:0 0 |178:0 3 |385:1 1 |617:1 2 |21:2 0 |79:2 4 |791:2 5 |122:3 1 |872:3 3 |795:4 2 |55:5 0 |860:5 2 |986:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u5" nbTuples="17" semantics="soft">317:0 0 |209:0 1 |985:0 2 |129:0 3 |802:0 4 |842:0 5 |721:1 1 |461:1 4 |154:1 5 |292:2 0 |799:2 1 |433:2 2 |113:2 3 |118:3 2 |635:3 4 |979:4 5 |952:5 0 </relation>
+<relation arity="2" defaultCost="-infinity" name="u6" nbTuples="14" semantics="soft">903:0 0 |184:0 2 |248:0 4 |4:1 1 |932:1 3 |105:2 4 |381:2 5 |794:3 2 |452:3 3 |430:4 0 |141:4 4 |398:4 5 |9:5 2 |497:5 3 </relation>
+</relations>
+<constraints nbConstraints="6">
+<constraint name="c1" arity="2" scope="V3 V4" reference="u1"/>
+<constraint name="c2" arity="2" scope="V3 V0" reference="u2"/>
+<constraint name="c3" arity="2" scope="V3 V1" reference="u3"/>
+<constraint name="c4" arity="2" scope="V2 V4" reference="u4"/>
+<constraint name="c5" arity="2" scope="V2 V3" reference="u5"/>
+<constraint name="c6" arity="2" scope="V2 V1" reference="u6"/>
+</constraints>
+</instance>

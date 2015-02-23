@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<instance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="src/ch/epfl/lia/frodo/algorithms/XCSPschema.xsd">
+<presentation degree="1" pro="0.6" pro1="0.6" format="XCSP 2.1_FRODO" maxConstraint="2" maximize="true" name="v15_e84_a5_d5_p6_42"/>
+<agents nbAgents="5">
+<agent name="A0"/>
+<agent name="A1"/>
+<agent name="A2"/>
+<agent name="A3"/>
+<agent name="A4"/>
+</agents>
+<domains nbDomains="15">
+<domain name="dv0" nbValues="6">0..5</domain>
+<domain name="dv1" nbValues="6">0..5</domain>
+<domain name="dv2" nbValues="6">0..5</domain>
+<domain name="dv3" nbValues="6">0..5</domain>
+<domain name="dv4" nbValues="6">0..5</domain>
+<domain name="dv5" nbValues="6">0..5</domain>
+<domain name="dv6" nbValues="6">0..5</domain>
+<domain name="dv7" nbValues="6">0..5</domain>
+<domain name="dv8" nbValues="6">0..5</domain>
+<domain name="dv9" nbValues="6">0..5</domain>
+<domain name="dv10" nbValues="6">0..5</domain>
+<domain name="dv11" nbValues="6">0..5</domain>
+<domain name="dv12" nbValues="6">0..5</domain>
+<domain name="dv13" nbValues="6">0..5</domain>
+<domain name="dv14" nbValues="6">0..5</domain>
+</domains>
+<variables nbVariables="15">
+<variable agent="A0" domain="dv0" name="V0"/>
+<variable agent="A0" domain="dv1" name="V1"/>
+<variable agent="A0" domain="dv2" name="V2"/>
+<variable agent="A1" domain="dv3" name="V3"/>
+<variable agent="A1" domain="dv4" name="V4"/>
+<variable agent="A1" domain="dv5" name="V5"/>
+<variable agent="A2" domain="dv6" name="V6"/>
+<variable agent="A2" domain="dv7" name="V7"/>
+<variable agent="A2" domain="dv8" name="V8"/>
+<variable agent="A3" domain="dv9" name="V9"/>
+<variable agent="A3" domain="dv10" name="V10"/>
+<variable agent="A3" domain="dv11" name="V11"/>
+<variable agent="A4" domain="dv12" name="V12"/>
+<variable agent="A4" domain="dv13" name="V13"/>
+<variable agent="A4" domain="dv14" name="V14"/>
+</variables>
+<relations nbRelations="84">
+<relation arity="2" defaultCost="-infinity" name="u1" nbTuples="14" semantics="soft">300:0 1 |328:0 3 |18:0 4 |43:1 0 |20:1 1 |481:1 5 |107:2 1 |475:2 2 |923:2 3 |92:2 5 |914:3 2 |910:4 0 |239:5 4 |273:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u2" nbTuples="13" semantics="soft">860:0 4 |819:1 1 |70:1 3 |494:1 4 |30:2 2 |23:2 3 |726:2 5 |117:3 0 |649:3 4 |533:4 1 |860:4 5 |940:5 1 |167:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u3" nbTuples="10" semantics="soft">50:0 2 |817:1 1 |923:1 2 |214:1 3 |310:1 4 |953:3 2 |258:3 4 |586:3 5 |438:4 1 |465:5 2 </relation>
+<relation arity="2" defaultCost="-infinity" name="u4" nbTuples="16" semantics="soft">286:0 1 |165:0 2 |623:0 5 |206:1 0 |803:1 1 |194:1 5 |460:2 0 |250:2 1 |731:2 2 |560:2 3 |489:2 5 |506:3 2 |198:4 1 |861:5 1 |586:5 3 |517:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u5" nbTuples="17" semantics="soft">598:1 1 |830:1 5 |100:2 0 |698:2 2 |295:2 3 |347:2 4 |807:3 0 |638:3 1 |276:3 2 |650:3 3 |62:3 4 |777:3 5 |160:4 2 |574:5 0 |789:5 3 |726:5 4 |712:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u6" nbTuples="11" semantics="soft">591:0 0 |254:0 4 |733:1 1 |154:2 3 |193:3 1 |996:3 2 |293:3 4 |387:3 5 |672:4 0 |550:5 0 |737:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u7" nbTuples="19" semantics="soft">422:0 2 |693:0 3 |149:0 4 |674:1 1 |215:1 3 |130:1 5 |926:2 0 |552:2 1 |363:2 2 |504:2 4 |665:2 5 |225:3 0 |36:3 4 |46:4 1 |690:4 2 |346:4 5 |891:5 1 |832:5 2 |926:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u8" nbTuples="17" semantics="soft">602:1 0 |659:1 1 |632:1 3 |845:1 4 |310:1 5 |554:2 1 |186:2 2 |543:2 3 |634:2 4 |642:3 3 |302:3 5 |838:4 1 |745:4 5 |837:5 0 |836:5 1 |978:5 3 |593:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u9" nbTuples="15" semantics="soft">249:0 0 |877:0 1 |199:0 3 |520:0 4 |195:1 1 |650:1 2 |136:2 1 |895:2 2 |281:2 3 |502:3 3 |826:3 4 |77:4 2 |661:4 5 |64:5 2 |839:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u10" nbTuples="17" semantics="soft">499:0 3 |707:0 5 |143:1 1 |914:1 2 |374:1 5 |64:2 2 |126:2 3 |280:2 4 |565:3 3 |312:3 4 |750:4 2 |793:4 3 |440:4 5 |201:5 0 |862:5 2 |862:5 3 |132:5 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u11" nbTuples="12" semantics="soft">780:0 0 |432:0 3 |162:1 0 |449:1 1 |511:2 1 |417:2 2 |27:3 3 |876:3 5 |910:4 1 |256:4 3 |496:4 4 |467:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u12" nbTuples="10" semantics="soft">70:0 0 |717:0 2 |978:1 1 |202:1 5 |921:4 2 |503:5 0 |600:5 2 |290:5 3 |995:5 4 |592:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u13" nbTuples="12" semantics="soft">392:0 1 |243:0 2 |7:0 3 |476:0 5 |593:1 0 |32:1 1 |528:1 5 |619:2 0 |544:2 5 |512:3 5 |623:4 3 |232:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u14" nbTuples="16" semantics="soft">812:0 2 |367:0 4 |420:1 0 |127:1 1 |430:1 3 |273:1 4 |149:2 0 |803:2 2 |386:2 3 |592:2 5 |391:3 0 |105:3 2 |795:3 3 |904:4 2 |918:4 3 |780:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u15" nbTuples="10" semantics="soft">494:0 1 |917:1 1 |748:1 2 |982:3 0 |181:3 3 |777:3 5 |758:4 1 |340:4 2 |555:4 3 |647:5 0 </relation>
+<relation arity="2" defaultCost="-infinity" name="u16" nbTuples="21" semantics="soft">480:0 0 |491:0 3 |387:0 5 |464:1 0 |527:1 1 |79:1 3 |852:2 0 |160:2 1 |394:2 3 |116:2 4 |950:2 5 |282:3 2 |302:3 5 |233:4 2 |352:4 3 |844:4 4 |97:4 5 |805:5 1 |546:5 3 |475:5 4 |182:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u17" nbTuples="15" semantics="soft">144:0 1 |719:0 2 |402:0 3 |915:0 4 |960:1 0 |432:1 1 |560:1 2 |888:1 4 |69:2 3 |772:2 5 |193:3 0 |38:4 0 |903:4 1 |303:4 2 |630:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u18" nbTuples="15" semantics="soft">602:1 0 |682:1 1 |903:1 2 |506:1 4 |479:2 0 |304:2 1 |199:2 5 |645:3 0 |746:3 1 |845:3 3 |194:4 4 |930:4 5 |648:5 1 |281:5 4 |340:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u19" nbTuples="13" semantics="soft">992:0 0 |626:0 4 |537:1 0 |252:1 1 |248:1 2 |619:2 1 |155:2 3 |18:2 5 |863:3 2 |142:3 4 |994:4 1 |1:4 5 |487:5 1 </relation>
+<relation arity="2" defaultCost="-infinity" name="u20" nbTuples="16" semantics="soft">400:0 0 |80:0 2 |922:0 3 |213:0 4 |13:0 5 |440:1 0 |949:1 1 |53:1 3 |773:2 0 |15:2 1 |528:2 4 |365:4 0 |188:4 2 |992:5 2 |667:5 4 |112:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u21" nbTuples="16" semantics="soft">521:0 0 |774:1 0 |433:1 1 |509:1 3 |402:2 0 |582:2 1 |513:2 5 |609:3 0 |109:3 1 |108:3 2 |761:3 5 |665:4 0 |65:4 3 |16:4 4 |815:5 1 |610:5 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u22" nbTuples="14" semantics="soft">141:0 0 |59:0 1 |12:0 2 |877:0 3 |921:0 5 |493:1 1 |47:1 3 |855:2 1 |140:3 1 |50:4 1 |9:4 2 |673:4 4 |164:5 0 |185:5 2 </relation>
+<relation arity="2" defaultCost="-infinity" name="u23" nbTuples="11" semantics="soft">752:0 0 |703:0 1 |492:0 4 |431:1 1 |779:2 3 |83:3 1 |972:3 3 |752:3 4 |186:4 2 |854:4 4 |610:5 1 </relation>
+<relation arity="2" defaultCost="-infinity" name="u24" nbTuples="16" semantics="soft">461:0 1 |544:0 3 |747:1 0 |624:1 1 |847:2 0 |981:2 3 |536:2 4 |624:3 0 |947:3 5 |162:4 0 |892:4 1 |664:4 2 |0:4 4 |282:5 1 |43:5 2 |183:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u25" nbTuples="19" semantics="soft">8:0 0 |676:0 2 |232:0 3 |790:1 0 |451:1 1 |169:1 3 |803:1 4 |172:1 5 |692:2 1 |826:2 4 |50:3 0 |413:3 2 |784:3 3 |304:4 0 |365:4 1 |408:4 3 |410:5 0 |671:5 1 |21:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u26" nbTuples="17" semantics="soft">81:0 0 |476:0 2 |112:0 4 |998:1 1 |650:1 3 |425:1 4 |693:2 3 |537:2 4 |201:3 0 |693:3 2 |967:3 4 |769:3 5 |465:4 0 |858:4 2 |5:4 3 |603:5 1 |763:5 2 </relation>
+<relation arity="2" defaultCost="-infinity" name="u27" nbTuples="19" semantics="soft">929:0 2 |147:0 3 |302:0 5 |783:1 0 |924:1 1 |563:1 2 |549:1 5 |990:2 0 |343:2 3 |574:3 0 |601:3 1 |204:3 2 |400:3 4 |477:3 5 |125:4 3 |130:4 5 |904:5 0 |558:5 1 |600:5 2 </relation>
+<relation arity="2" defaultCost="-infinity" name="u28" nbTuples="23" semantics="soft">371:0 0 |515:0 2 |837:0 3 |752:1 1 |802:1 2 |652:1 3 |95:1 4 |370:2 0 |971:2 1 |755:2 2 |656:2 3 |957:2 5 |610:3 1 |722:3 2 |438:4 0 |117:4 1 |194:4 2 |301:4 3 |824:4 5 |289:5 0 |959:5 2 |941:5 3 |956:5 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u29" nbTuples="18" semantics="soft">394:0 0 |705:0 1 |70:0 3 |189:0 4 |254:0 5 |261:1 1 |117:1 2 |540:2 1 |193:2 2 |445:2 3 |580:3 0 |161:3 1 |31:3 2 |979:4 1 |355:4 2 |53:4 3 |817:4 5 |838:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u30" nbTuples="12" semantics="soft">121:0 0 |449:0 5 |34:1 1 |193:2 1 |6:2 3 |584:2 4 |686:3 2 |205:3 4 |946:4 0 |825:4 1 |588:4 3 |638:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u31" nbTuples="14" semantics="soft">94:0 0 |496:0 2 |515:0 3 |467:0 4 |452:1 0 |34:1 1 |249:2 3 |393:2 4 |317:3 3 |549:3 5 |491:4 1 |445:4 5 |591:5 1 |237:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u32" nbTuples="18" semantics="soft">577:0 1 |683:0 2 |967:0 4 |567:1 0 |379:1 1 |318:1 2 |959:1 3 |610:1 5 |363:2 0 |458:2 2 |380:3 0 |433:3 4 |711:3 5 |73:4 0 |301:5 0 |974:5 1 |634:5 2 |718:5 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u33" nbTuples="16" semantics="soft">748:0 1 |403:0 3 |471:1 0 |994:1 1 |411:1 5 |603:2 4 |936:3 0 |748:3 1 |396:3 3 |986:3 4 |934:4 0 |511:4 2 |630:4 3 |566:4 4 |696:4 5 |737:5 2 </relation>
+<relation arity="2" defaultCost="-infinity" name="u34" nbTuples="17" semantics="soft">875:0 0 |908:0 2 |566:0 5 |0:1 1 |423:1 4 |245:1 5 |711:2 4 |435:2 5 |462:3 1 |911:3 5 |153:4 1 |303:4 2 |776:4 3 |908:4 4 |16:5 0 |827:5 1 |933:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u35" nbTuples="17" semantics="soft">376:0 0 |567:0 1 |75:1 0 |351:1 1 |458:1 4 |706:1 5 |978:2 1 |668:2 3 |48:3 2 |813:3 4 |266:4 1 |650:4 3 |750:4 4 |453:5 1 |525:5 2 |483:5 4 |348:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u36" nbTuples="15" semantics="soft">303:0 0 |280:0 2 |648:0 3 |88:1 1 |805:1 3 |489:1 4 |753:2 3 |27:2 4 |476:3 2 |671:3 3 |624:4 0 |800:4 3 |498:5 1 |342:5 2 |685:5 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u37" nbTuples="14" semantics="soft">185:0 0 |205:0 1 |393:0 4 |151:0 5 |995:1 1 |360:1 2 |536:1 4 |841:2 2 |883:2 5 |635:3 0 |964:3 1 |486:3 5 |916:5 1 |567:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u38" nbTuples="13" semantics="soft">935:1 1 |251:1 4 |866:2 3 |362:2 5 |79:3 0 |812:3 3 |476:4 0 |292:4 1 |824:4 3 |729:4 5 |156:5 0 |134:5 1 |513:5 2 </relation>
+<relation arity="2" defaultCost="-infinity" name="u39" nbTuples="18" semantics="soft">74:0 0 |899:0 4 |40:0 5 |454:1 0 |210:1 1 |504:1 2 |449:1 4 |352:1 5 |369:2 1 |552:2 2 |194:2 3 |312:2 4 |249:3 3 |964:3 4 |740:4 1 |903:4 4 |111:4 5 |386:5 2 </relation>
+<relation arity="2" defaultCost="-infinity" name="u40" nbTuples="16" semantics="soft">560:0 1 |540:0 4 |986:0 5 |94:1 0 |44:1 1 |814:1 3 |462:2 0 |588:2 3 |949:2 4 |228:3 1 |199:3 3 |538:3 5 |321:4 2 |253:5 2 |723:5 3 |333:5 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u41" nbTuples="16" semantics="soft">77:0 0 |483:0 2 |298:0 3 |980:0 4 |821:1 1 |185:1 3 |685:1 5 |771:2 3 |332:2 5 |498:3 1 |330:4 0 |744:4 4 |173:4 5 |80:5 3 |149:5 4 |606:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u42" nbTuples="12" semantics="soft">159:0 5 |44:1 1 |376:2 0 |533:2 3 |110:3 0 |618:3 1 |84:3 4 |931:3 5 |143:4 0 |82:4 1 |910:4 2 |58:5 2 </relation>
+<relation arity="2" defaultCost="-infinity" name="u43" nbTuples="14" semantics="soft">962:0 0 |189:0 2 |156:0 3 |157:1 1 |41:1 2 |436:1 5 |988:2 0 |572:3 1 |360:4 1 |293:4 2 |597:4 4 |208:5 2 |316:5 3 |723:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u44" nbTuples="14" semantics="soft">348:0 0 |541:0 2 |800:0 3 |102:0 5 |627:1 1 |313:2 1 |945:2 5 |965:3 0 |788:3 3 |994:4 3 |958:5 0 |808:5 1 |927:5 2 |73:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u45" nbTuples="13" semantics="soft">551:0 0 |604:1 0 |390:1 1 |257:1 3 |953:1 4 |524:2 0 |848:2 1 |647:2 5 |135:3 2 |828:3 5 |481:4 2 |126:5 4 |934:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u46" nbTuples="15" semantics="soft">841:0 1 |368:0 2 |193:1 1 |943:2 0 |420:2 1 |376:2 3 |686:2 4 |672:3 4 |337:4 3 |990:4 5 |960:5 0 |248:5 2 |576:5 3 |302:5 4 |311:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u47" nbTuples="17" semantics="soft">55:0 2 |609:1 1 |66:1 2 |636:1 3 |112:1 5 |353:2 1 |63:2 2 |597:2 3 |659:2 5 |643:3 0 |278:3 1 |851:3 3 |358:3 4 |736:4 2 |312:4 3 |204:5 2 |785:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u48" nbTuples="13" semantics="soft">603:1 0 |223:1 1 |942:1 2 |348:1 3 |462:2 2 |522:2 5 |904:3 0 |652:3 5 |325:4 0 |355:4 4 |388:4 5 |306:5 3 |91:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u49" nbTuples="18" semantics="soft">8:0 0 |297:0 1 |625:0 2 |116:0 3 |737:0 5 |519:1 0 |246:1 1 |982:1 3 |591:1 5 |983:2 0 |655:2 2 |655:2 3 |330:3 2 |383:3 3 |781:3 4 |123:4 5 |757:5 2 |165:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u50" nbTuples="15" semantics="soft">342:0 0 |54:0 1 |795:0 4 |912:0 5 |351:1 0 |30:1 1 |405:1 3 |967:1 5 |276:2 1 |434:2 3 |26:3 1 |751:3 5 |654:4 0 |111:5 1 |537:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u51" nbTuples="13" semantics="soft">938:0 0 |567:0 1 |525:0 2 |895:0 5 |392:1 1 |311:2 0 |232:3 0 |482:3 2 |522:3 4 |718:4 0 |166:4 1 |916:4 4 |479:5 0 </relation>
+<relation arity="2" defaultCost="-infinity" name="u52" nbTuples="13" semantics="soft">66:0 1 |396:1 1 |503:1 5 |490:2 3 |274:2 4 |722:3 0 |819:3 2 |419:3 3 |30:4 0 |743:4 2 |885:4 5 |578:5 0 |875:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u53" nbTuples="17" semantics="soft">769:0 0 |246:0 5 |687:1 0 |778:1 1 |301:1 4 |859:2 0 |855:2 2 |645:2 3 |590:2 4 |41:2 5 |431:3 3 |321:3 4 |191:3 5 |942:4 0 |549:4 1 |73:4 3 |318:5 0 </relation>
+<relation arity="2" defaultCost="-infinity" name="u54" nbTuples="14" semantics="soft">863:1 1 |285:1 5 |251:2 0 |216:2 3 |559:2 4 |365:2 5 |798:3 0 |773:3 4 |82:3 5 |494:4 3 |570:4 5 |30:5 1 |38:5 4 |516:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u55" nbTuples="14" semantics="soft">939:0 0 |327:0 1 |211:0 5 |739:1 1 |14:1 2 |337:2 1 |316:2 2 |7:3 3 |915:3 4 |352:4 2 |297:4 3 |298:4 5 |900:5 0 |793:5 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u56" nbTuples="16" semantics="soft">975:0 1 |888:1 1 |885:1 4 |66:2 0 |47:2 1 |413:2 2 |761:2 5 |570:3 1 |428:3 2 |509:4 3 |229:4 4 |863:4 5 |618:5 0 |994:5 2 |341:5 4 |765:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u57" nbTuples="16" semantics="soft">386:0 2 |27:1 0 |740:1 1 |408:1 2 |324:2 0 |34:2 2 |703:2 3 |92:2 5 |921:3 0 |644:3 4 |407:3 5 |104:4 3 |720:4 4 |383:4 5 |500:5 4 |563:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u58" nbTuples="18" semantics="soft">738:0 0 |364:0 1 |998:0 2 |716:0 3 |779:0 4 |733:1 1 |692:1 2 |76:2 0 |513:2 1 |254:2 2 |795:3 0 |228:3 1 |150:3 3 |960:4 1 |241:4 5 |128:5 0 |374:5 1 |464:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u59" nbTuples="15" semantics="soft">197:0 1 |265:0 2 |709:0 4 |199:1 1 |578:1 3 |73:2 0 |888:2 3 |509:2 5 |55:3 0 |615:3 1 |877:3 2 |286:3 4 |863:4 0 |626:4 2 |144:5 1 </relation>
+<relation arity="2" defaultCost="-infinity" name="u60" nbTuples="9" semantics="soft">582:0 2 |934:0 5 |699:1 1 |435:1 2 |423:1 5 |334:2 2 |554:3 2 |789:4 3 |873:4 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u61" nbTuples="17" semantics="soft">681:0 0 |34:0 3 |795:0 5 |231:1 1 |282:1 2 |750:1 5 |93:2 2 |180:2 3 |997:2 5 |19:3 1 |965:4 0 |539:4 2 |425:4 3 |113:4 5 |428:5 0 |298:5 2 |880:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u62" nbTuples="18" semantics="soft">595:0 0 |666:0 3 |550:0 4 |727:1 1 |953:1 2 |714:1 3 |931:2 3 |135:2 5 |613:3 0 |339:3 2 |268:3 5 |942:4 0 |833:4 1 |715:4 2 |154:4 4 |346:4 5 |969:5 2 |1:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u63" nbTuples="15" semantics="soft">306:0 1 |423:0 3 |69:0 5 |267:1 1 |673:1 3 |959:1 5 |813:2 1 |177:2 2 |455:2 4 |976:2 5 |305:3 0 |791:3 3 |359:4 2 |412:5 4 |416:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u64" nbTuples="20" semantics="soft">388:0 0 |652:0 1 |794:0 4 |864:0 5 |676:1 1 |860:1 4 |455:1 5 |496:2 0 |905:2 2 |206:2 3 |762:2 4 |818:2 5 |399:3 1 |244:3 2 |70:3 3 |81:4 3 |752:4 4 |447:4 5 |660:5 3 |974:5 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u65" nbTuples="17" semantics="soft">471:0 1 |968:1 0 |655:1 1 |216:1 3 |178:1 4 |122:2 2 |60:2 3 |195:2 4 |549:3 1 |645:3 2 |383:3 3 |84:4 0 |67:4 1 |232:4 3 |941:4 4 |779:5 0 |322:5 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u66" nbTuples="12" semantics="soft">386:0 2 |903:0 4 |366:0 5 |7:1 1 |129:1 2 |307:1 5 |804:2 5 |15:4 1 |709:4 5 |767:5 0 |889:5 2 |5:5 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u67" nbTuples="14" semantics="soft">45:0 3 |364:1 1 |666:1 2 |614:2 0 |270:2 2 |279:2 4 |888:2 5 |52:3 0 |408:3 2 |5:3 4 |216:4 1 |142:4 3 |925:5 1 |652:5 2 </relation>
+<relation arity="2" defaultCost="-infinity" name="u68" nbTuples="14" semantics="soft">459:0 1 |22:1 1 |586:1 2 |678:1 5 |216:2 5 |610:3 1 |872:3 2 |634:3 3 |1000:3 4 |629:4 1 |925:4 3 |882:5 0 |35:5 2 |468:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u69" nbTuples="12" semantics="soft">878:0 0 |31:0 3 |708:0 4 |395:1 1 |230:1 2 |865:1 3 |794:2 3 |665:3 2 |848:4 4 |763:5 0 |478:5 3 |895:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u70" nbTuples="8" semantics="soft">49:0 0 |284:1 1 |380:1 3 |666:2 4 |230:4 0 |380:4 2 |720:5 1 |690:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u71" nbTuples="19" semantics="soft">393:0 0 |865:0 2 |49:0 4 |15:1 1 |29:1 3 |199:1 5 |961:2 0 |733:2 1 |782:2 2 |351:2 4 |527:3 0 |303:3 3 |415:3 5 |455:4 0 |261:4 1 |176:4 3 |732:5 0 |291:5 1 |829:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u72" nbTuples="19" semantics="soft">630:0 2 |178:0 3 |146:0 4 |789:0 5 |824:1 0 |70:1 1 |415:1 2 |216:2 0 |912:2 2 |563:2 3 |473:2 4 |87:2 5 |690:3 1 |707:3 4 |669:3 5 |1000:5 1 |632:5 2 |198:5 3 |30:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u73" nbTuples="12" semantics="soft">890:0 1 |406:0 2 |732:1 1 |174:1 3 |117:2 2 |880:2 3 |148:2 5 |172:3 0 |514:4 1 |420:4 2 |985:5 1 |655:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u74" nbTuples="17" semantics="soft">684:0 0 |781:0 1 |339:0 2 |192:0 4 |181:1 0 |236:1 1 |461:1 4 |111:2 1 |956:2 2 |658:2 3 |852:2 4 |249:3 2 |796:4 1 |154:4 3 |187:4 4 |781:5 0 |396:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u75" nbTuples="15" semantics="soft">528:0 3 |855:0 5 |191:1 1 |31:1 2 |234:1 4 |450:1 5 |670:2 1 |792:3 1 |781:3 4 |154:3 5 |674:4 4 |772:4 5 |459:5 0 |495:5 1 |188:5 2 </relation>
+<relation arity="2" defaultCost="-infinity" name="u76" nbTuples="12" semantics="soft">600:0 1 |131:0 2 |647:1 1 |258:1 2 |231:3 1 |320:3 2 |94:3 3 |681:3 5 |975:4 2 |207:4 3 |149:5 0 |382:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u77" nbTuples="16" semantics="soft">309:1 0 |295:1 1 |589:1 2 |874:1 3 |169:2 0 |346:2 2 |379:2 4 |363:3 0 |19:3 1 |944:4 0 |303:4 3 |546:4 4 |240:4 5 |477:5 2 |80:5 3 |856:5 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u78" nbTuples="14" semantics="soft">25:0 1 |587:0 2 |449:0 3 |934:0 4 |262:0 5 |167:1 1 |554:1 3 |415:1 4 |635:3 3 |808:3 4 |904:3 5 |675:4 2 |481:5 1 |180:5 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u79" nbTuples="18" semantics="soft">93:0 4 |71:1 1 |794:1 4 |224:2 0 |493:2 1 |316:2 2 |105:2 4 |156:2 5 |77:3 0 |93:3 1 |906:3 3 |278:3 4 |647:3 5 |674:4 2 |672:4 3 |247:4 5 |727:5 0 |331:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u80" nbTuples="12" semantics="soft">544:0 1 |4:0 3 |571:0 5 |577:1 0 |183:1 1 |820:1 5 |785:2 1 |809:2 4 |371:3 3 |990:4 2 |304:4 5 |790:5 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u81" nbTuples="13" semantics="soft">453:0 3 |554:1 1 |608:1 2 |478:1 3 |835:1 5 |25:2 0 |296:2 1 |134:2 2 |347:2 5 |560:4 1 |443:4 2 |287:5 2 |445:5 4 </relation>
+<relation arity="2" defaultCost="-infinity" name="u82" nbTuples="13" semantics="soft">138:0 2 |373:0 3 |109:1 1 |880:1 2 |339:2 5 |880:3 0 |982:3 1 |722:3 2 |10:3 5 |236:4 0 |536:4 5 |325:5 2 |696:5 3 </relation>
+<relation arity="2" defaultCost="-infinity" name="u83" nbTuples="19" semantics="soft">730:0 0 |288:0 1 |105:0 4 |972:0 5 |865:1 1 |11:1 2 |826:1 3 |949:2 1 |854:2 4 |406:2 5 |408:3 4 |78:3 5 |443:4 0 |221:4 1 |146:4 5 |40:5 0 |675:5 2 |950:5 3 |627:5 5 </relation>
+<relation arity="2" defaultCost="-infinity" name="u84" nbTuples="13" semantics="soft">963:0 1 |707:0 2 |371:1 1 |552:1 2 |384:1 3 |381:1 4 |763:2 5 |173:3 0 |455:3 1 |832:3 4 |297:4 2 |977:4 5 |557:5 2 </relation>
+</relations>
+<constraints nbConstraints="84">
+<constraint name="c1" arity="2" scope="V14 V13" reference="u1"/>
+<constraint name="c2" arity="2" scope="V14 V2" reference="u2"/>
+<constraint name="c3" arity="2" scope="V14 V6" reference="u3"/>
+<constraint name="c4" arity="2" scope="V14 V4" reference="u4"/>
+<constraint name="c5" arity="2" scope="V14 V9" reference="u5"/>
+<constraint name="c6" arity="2" scope="V14 V1" reference="u6"/>
+<constraint name="c7" arity="2" scope="V14 V11" reference="u7"/>
+<constraint name="c8" arity="2" scope="V13 V10" reference="u8"/>
+<constraint name="c9" arity="2" scope="V13 V9" reference="u9"/>
+<constraint name="c10" arity="2" scope="V13 V3" reference="u10"/>
+<constraint name="c11" arity="2" scope="V13 V5" reference="u11"/>
+<constraint name="c12" arity="2" scope="V13 V12" reference="u12"/>
+<constraint name="c13" arity="2" scope="V13 V11" reference="u13"/>
+<constraint name="c14" arity="2" scope="V12 V8" reference="u14"/>
+<constraint name="c15" arity="2" scope="V12 V2" reference="u15"/>
+<constraint name="c16" arity="2" scope="V12 V10" reference="u16"/>
+<constraint name="c17" arity="2" scope="V12 V9" reference="u17"/>
+<constraint name="c18" arity="2" scope="V12 V11" reference="u18"/>
+<constraint name="c19" arity="2" scope="V12 V3" reference="u19"/>
+<constraint name="c20" arity="2" scope="V12 V1" reference="u20"/>
+<constraint name="c21" arity="2" scope="V12 V14" reference="u21"/>
+<constraint name="c22" arity="2" scope="V11 V0" reference="u22"/>
+<constraint name="c23" arity="2" scope="V11 V5" reference="u23"/>
+<constraint name="c24" arity="2" scope="V10 V0" reference="u24"/>
+<constraint name="c25" arity="2" scope="V10 V9" reference="u25"/>
+<constraint name="c26" arity="2" scope="V10 V11" reference="u26"/>
+<constraint name="c27" arity="2" scope="V10 V1" reference="u27"/>
+<constraint name="c28" arity="2" scope="V10 V14" reference="u28"/>
+<constraint name="c29" arity="2" scope="V10 V5" reference="u29"/>
+<constraint name="c30" arity="2" scope="V10 V6" reference="u30"/>
+<constraint name="c31" arity="2" scope="V9 V3" reference="u31"/>
+<constraint name="c32" arity="2" scope="V9 V11" reference="u32"/>
+<constraint name="c33" arity="2" scope="V9 V7" reference="u33"/>
+<constraint name="c34" arity="2" scope="V9 V2" reference="u34"/>
+<constraint name="c35" arity="2" scope="V9 V8" reference="u35"/>
+<constraint name="c36" arity="2" scope="V9 V1" reference="u36"/>
+<constraint name="c37" arity="2" scope="V8 V13" reference="u37"/>
+<constraint name="c38" arity="2" scope="V8 V3" reference="u38"/>
+<constraint name="c39" arity="2" scope="V8 V14" reference="u39"/>
+<constraint name="c40" arity="2" scope="V8 V10" reference="u40"/>
+<constraint name="c41" arity="2" scope="V7 V8" reference="u41"/>
+<constraint name="c42" arity="2" scope="V7 V11" reference="u42"/>
+<constraint name="c43" arity="2" scope="V7 V14" reference="u43"/>
+<constraint name="c44" arity="2" scope="V7 V13" reference="u44"/>
+<constraint name="c45" arity="2" scope="V7 V10" reference="u45"/>
+<constraint name="c46" arity="2" scope="V6 V11" reference="u46"/>
+<constraint name="c47" arity="2" scope="V6 V7" reference="u47"/>
+<constraint name="c48" arity="2" scope="V6 V2" reference="u48"/>
+<constraint name="c49" arity="2" scope="V5 V14" reference="u49"/>
+<constraint name="c50" arity="2" scope="V5 V12" reference="u50"/>
+<constraint name="c51" arity="2" scope="V5 V6" reference="u51"/>
+<constraint name="c52" arity="2" scope="V5 V4" reference="u52"/>
+<constraint name="c53" arity="2" scope="V5 V9" reference="u53"/>
+<constraint name="c54" arity="2" scope="V5 V1" reference="u54"/>
+<constraint name="c55" arity="2" scope="V5 V8" reference="u55"/>
+<constraint name="c56" arity="2" scope="V4 V8" reference="u56"/>
+<constraint name="c57" arity="2" scope="V4 V11" reference="u57"/>
+<constraint name="c58" arity="2" scope="V4 V13" reference="u58"/>
+<constraint name="c59" arity="2" scope="V4 V9" reference="u59"/>
+<constraint name="c60" arity="2" scope="V4 V0" reference="u60"/>
+<constraint name="c61" arity="2" scope="V4 V12" reference="u61"/>
+<constraint name="c62" arity="2" scope="V3 V7" reference="u62"/>
+<constraint name="c63" arity="2" scope="V3 V2" reference="u63"/>
+<constraint name="c64" arity="2" scope="V3 V14" reference="u64"/>
+<constraint name="c65" arity="2" scope="V3 V5" reference="u65"/>
+<constraint name="c66" arity="2" scope="V3 V4" reference="u66"/>
+<constraint name="c67" arity="2" scope="V2 V1" reference="u67"/>
+<constraint name="c68" arity="2" scope="V2 V7" reference="u68"/>
+<constraint name="c69" arity="2" scope="V2 V4" reference="u69"/>
+<constraint name="c70" arity="2" scope="V2 V8" reference="u70"/>
+<constraint name="c71" arity="2" scope="V2 V5" reference="u71"/>
+<constraint name="c72" arity="2" scope="V2 V11" reference="u72"/>
+<constraint name="c73" arity="2" scope="V1 V6" reference="u73"/>
+<constraint name="c74" arity="2" scope="V1 V7" reference="u74"/>
+<constraint name="c75" arity="2" scope="V1 V11" reference="u75"/>
+<constraint name="c76" arity="2" scope="V1 V0" reference="u76"/>
+<constraint name="c77" arity="2" scope="V1 V8" reference="u77"/>
+<constraint name="c78" arity="2" scope="V0 V2" reference="u78"/>
+<constraint name="c79" arity="2" scope="V0 V6" reference="u79"/>
+<constraint name="c80" arity="2" scope="V0 V14" reference="u80"/>
+<constraint name="c81" arity="2" scope="V0 V8" reference="u81"/>
+<constraint name="c82" arity="2" scope="V0 V5" reference="u82"/>
+<constraint name="c83" arity="2" scope="V0 V12" reference="u83"/>
+<constraint name="c84" arity="2" scope="V0 V9" reference="u84"/>
+</constraints>
+</instance>
