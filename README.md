@@ -12,4 +12,5 @@ Requirements:
   - clasp
   
 Command to run:
+
 sicstus -l xmldcopv31.pl --goal "tiep(prefix_of_input_file),halt."
